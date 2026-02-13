@@ -56,7 +56,7 @@ export function EditorForm({
             基本信息
           </h3>
           <div className="space-y-2">
-            <Label htmlFor="title">人设名称 *</Label>
+            <Label htmlFor="title">分身名称 *</Label>
             <Input
               id="title"
               value={title}
@@ -70,7 +70,7 @@ export function EditorForm({
               id="description"
               value={description}
               onChange={(e) => onDescriptionChange(e.target.value)}
-              placeholder="简要说明这个人设的用途..."
+              placeholder="简要说明这个分身的用途..."
               rows={2}
             />
           </div>

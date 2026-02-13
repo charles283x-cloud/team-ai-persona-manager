@@ -28,13 +28,13 @@ export default function DashboardPage() {
   return (
     <div className="flex flex-col h-full">
       <Header
-        title="人设仪表盘"
-        description="管理团队的所有 AI 人设"
+        title="分身仪表盘"
+        description="管理团队的所有 AI 分身"
         actions={
           <Button asChild size="sm">
             <Link href="/editor/new">
               <Plus className="mr-1 h-4 w-4" />
-              新建人设
+              新建分身
             </Link>
           </Button>
         }

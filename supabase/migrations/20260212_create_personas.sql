@@ -18,7 +18,7 @@ CREATE TABLE public.personas (
   tags          TEXT[] DEFAULT '{}',
   -- 创建者（关联 Supabase Auth）
   creator_id    UUID REFERENCES auth.users(id) ON DELETE SET NULL,
-  -- 是否公开给团队所有人
+  -- 是否公开给团队所有人（分身）
   is_public     BOOLEAN DEFAULT TRUE,
   created_at    TIMESTAMPTZ DEFAULT now(),
   updated_at    TIMESTAMPTZ DEFAULT now()

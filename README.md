@@ -1,6 +1,6 @@
 # Team AI Persona Manager
 
-团队 AI 人设管理器 —— 一个中心化的平台，团队成员可以在这里创建、编辑、存储和共享 AI 的 System Prompts（人设背景）。
+团队 AI 分身管理器 —— 一个中心化的平台，团队成员可以在这里创建、编辑、存储和共享 AI 的 System Prompts（分身背景）。
 
 ## 技术栈
 
@@ -12,7 +12,7 @@
 
 ## 核心功能
 
-- **Dashboard**: 团队所有人设的卡片列表，支持搜索和标签筛选
+- **Dashboard**: 团队所有分身的卡片列表，支持搜索和标签筛选
 - **Editor**: 分栏编辑器 —— 左边填写结构化表单（角色、技能、风格、背景、约束），右边实时预览生成的 System Prompt
 - **Sharing**: 保存后，任何团队成员可查看完整 Prompt 并一键复制
 
@@ -55,9 +55,9 @@ npm run dev
 src/
 ├── app/                    # Next.js App Router 页面
 │   ├── (auth)/             # 登录/注册页面
-│   ├── dashboard/          # 仪表盘（人设卡片列表）
+│   ├── dashboard/          # 仪表盘（分身卡片列表）
 │   ├── editor/             # 分栏编辑器（新建/编辑）
-│   └── persona/            # 人设查看/分享页面
+│   └── persona/            # 分身查看/分享页面
 ├── components/
 │   ├── ui/                 # Shadcn/UI 组件
 │   ├── layout/             # 布局组件（侧边栏、顶部栏）
@@ -80,7 +80,7 @@ supabase/
 | 字段 | 类型 | 说明 |
 |------|------|------|
 | id | UUID | 主键 |
-| title | TEXT | 人设名称 |
+| title | TEXT | 分身名称 |
 | description | TEXT | 简短描述 |
 | structured_data | JSONB | 结构化数据（角色、技能、风格等） |
 | compiled_prompt | TEXT | 编译后的完整 System Prompt |

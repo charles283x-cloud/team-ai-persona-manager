@@ -45,8 +45,8 @@ export default function NewEditorPage() {
   return (
     <div className="flex flex-col h-screen">
       <Header
-        title="新建人设"
-        description="创建一个新的 AI 人设"
+        title="新建分身"
+        description="创建一个新的 AI 分身"
         actions={
           <Button
             size="sm"

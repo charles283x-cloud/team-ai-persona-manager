@@ -69,7 +69,7 @@ export default function EditEditorPage() {
   return (
     <div className="flex flex-col h-screen">
       <Header
-        title="编辑人设"
+        title="编辑分身"
         description={persona?.title}
         actions={
           <div className="flex items-center gap-2">

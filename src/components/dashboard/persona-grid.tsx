@@ -29,9 +29,9 @@ export function PersonaGrid({ personas, isLoading }: PersonaGridProps) {
         <div className="flex h-16 w-16 items-center justify-center rounded-full bg-muted mb-4">
           <Bot className="h-8 w-8 text-muted-foreground" />
         </div>
-        <h3 className="text-lg font-semibold">还没有人设</h3>
+        <h3 className="text-lg font-semibold">还没有分身</h3>
         <p className="text-sm text-muted-foreground mt-1">
-          点击「新建人设」开始创建你的第一个 AI 人设
+          点击「新建分身」开始创建你的第一个 AI 分身
         </p>
       </div>
     );

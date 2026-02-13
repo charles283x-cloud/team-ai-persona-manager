@@ -42,7 +42,7 @@ export default function RegisterPage() {
           </div>
           <CardTitle className="text-xl">注册 AI Persona Manager</CardTitle>
           <CardDescription>
-            创建一个账号，加入团队人设管理平台
+            创建一个账号，加入团队分身管理平台
           </CardDescription>
         </CardHeader>
         <form onSubmit={handleSubmit}>

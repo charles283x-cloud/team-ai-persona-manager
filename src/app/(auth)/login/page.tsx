@@ -37,7 +37,7 @@ export default function LoginPage() {
           </div>
           <CardTitle className="text-xl">登录 AI Persona Manager</CardTitle>
           <CardDescription>
-            输入你的账号信息登录团队人设管理平台
+            输入你的账号信息登录团队分身管理平台
           </CardDescription>
         </CardHeader>
         <form onSubmit={handleSubmit}>

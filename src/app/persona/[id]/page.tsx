@@ -28,7 +28,7 @@ export default function PersonaViewPage() {
   if (!persona) {
     return (
       <div className="flex flex-col items-center justify-center min-h-screen gap-4">
-        <p className="text-muted-foreground">人设不存在或无权查看</p>
+        <p className="text-muted-foreground">分身不存在或无权查看</p>
         <Button asChild variant="outline">
           <Link href="/dashboard">
             <ArrowLeft className="mr-2 h-4 w-4" />

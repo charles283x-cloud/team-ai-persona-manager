@@ -27,7 +27,7 @@ const navItems = [
     icon: LayoutDashboard,
   },
   {
-    title: "新建人设",
+    title: "新建分身",
     href: "/editor/new",
     icon: Plus,
   },
@@ -47,7 +47,7 @@ export function AppSidebar() {
           </div>
           <div className="flex flex-col">
             <span className="text-sm font-semibold">AI Persona</span>
-            <span className="text-xs text-muted-foreground">团队人设管理器</span>
+            <span className="text-xs text-muted-foreground">团队分身管理器</span>
           </div>
         </Link>
       </SidebarHeader>

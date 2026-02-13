@@ -36,7 +36,7 @@ export function PersonaCard({ persona }: PersonaCardProps) {
   };
 
   const handleDelete = () => {
-    if (confirm("确定要删除这个人设吗？")) {
+    if (confirm("确定要删除这个分身吗？")) {
       deleteMutation.mutate(persona.id);
     }
   };
